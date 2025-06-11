@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HAutoTest" verbose="1">
+    <parameter name="environment" value="uat"/>
+    <test name="test_example" enabled="true">  <!--test必须有name属性-->
+        <parameter name="excelPath" value="testdata/xlsx/caseData_kline.xlsx"/>
+        <parameter name="dataSheetName" value="case"/>
+        <classes>
+            <class name="autotest.testcase.BaseCaseTest"/>
+        </classes>
+    </test>
+</suite>
