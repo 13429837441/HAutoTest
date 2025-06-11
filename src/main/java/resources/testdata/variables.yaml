@@ -1,0 +1,4 @@
+!!utils.VarConfigList
+config:
+- {description: update username, name: '#{username}', value: Jack black}
+- {description: 产品代码, name: '#{symbolCode}', value: USDJPY}
